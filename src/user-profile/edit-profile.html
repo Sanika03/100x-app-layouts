@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../dist/output.css" rel="stylesheet" />
+    <title>100x</title>
+</head>
+<body class="bg-neutral-1000 font-inter flex flex-col px-4 items-start gap-3 ">
+    <header class="flex py-3 justify-between items-center self-stretch">
+        <div class="flex items-center gap-5">
+            <a href="./index.html">
+                <img src="../../public/images/arrow-left.svg" alt="Left arrow icon"/>
+            </a>
+            <p class="text-neutral-50 text-base font-bold leading-normal">Edit profile</p>
+        </div>
+        <a href="./index.html">
+            <button class="flexx py-2 px-5 justify-center items-center gap-2.5 rounded-border-30 bg-neutral-50 shadow-box-shadow backdrop-blur-23">
+                <p class="text-neutral-1000 text-sm font-bold leading-normal">Save</p>
+            </button>
+        </a>
+    </header>
+
+    <div class="relative w-full flex">
+        <img src="../../public/images/banner.png" alt="Banner" class="w-full md:h-[200px]"/>
+
+        <div class="absolute flex h-full w-full items-center justify-center gap-2">
+            <img src="../../public/images/add-photo.svg" alt="Camera icon" class="rounded-border-1000 bg-neutral-1000-60 p-1"/>
+            <img src="../../public/images/profile-edit-cancel.svg" alt="Cancel icon" class="rounded-border-1000 bg-neutral-1000-60 p-1"/>
+        </div>
+    </div>
+
+    <main class="relative w-full">
+        <img src="../../public/images/user-avatar-edit.png" alt="User avatar edit image" class="w-20 h-20 absolute -top-[75px] left-2 rounded-border-200 border-4 border-neutral-1000"/>
+
+        <section class="flex flex-col items-center self-stretch gap-5 pt-5">
+            <fieldset class="group flex py-4 px-3 items-center gap-2.5 self-stretch rounded border border-solid border-neutral-500 focus-within:border-twitter-blue">   
+                <legend class="bg-neutral-1000 flex px-1 justify-center items-center gap-2.5 text-xs font-medium leading-normal text-neutral-500 group-focus-within:text-twitter-blue">
+                    Name
+                </legend>
+                <input type="text" placeholder="Name" value="Sanika Suryawanshi" class="w-full bg-transparent text-neutral-50 text-15 font-normal leading-normal placeholder:text-neutral-500 placeholder:text-15 focus:outline-none"/>
+            </fieldset>
+
+            <fieldset class="group flex py-4 px-3 items-center gap-2.5 self-stretch rounded border border-solid border-neutral-500 focus-within:border-twitter-blue">   
+                <legend class="bg-neutral-1000 flex px-1 justify-center items-center gap-2.5 text-xs font-medium leading-normal text-neutral-500 group-focus-within:text-twitter-blue">
+                    Bio
+                </legend>
+                <textarea type="text" placeholder="Bio" class="w-full resize-none bg-transparent text-neutral-50 text-15 leading-normal placeholder:text-neutral-500 placeholder:text-15 focus:outline-none">Full Stack Developer</textarea>
+            </fieldset>
+
+            <fieldset class="group flex py-4 px-3 items-center gap-2.5 self-stretch rounded border border-solid border-neutral-500 focus-within:border-twitter-blue">   
+                <legend class="bg-neutral-1000 flex px-1 justify-center items-center gap-2.5 text-xs font-medium leading-normal text-neutral-500 group-focus-within:text-twitter-blue">
+                    Location
+                </legend>
+                <input type="text" placeholder="Location" class="w-full bg-transparent text-neutral-50 text-15 font-normal leading-normal placeholder:text-neutral-500 placeholder:text-15 focus:outline-none"/>
+            </fieldset>
+
+            <fieldset class="group flex py-4 px-3 items-center gap-2.5 self-stretch rounded border border-solid border-neutral-500 focus-within:border-twitter-blue">   
+                <legend class="bg-neutral-1000 flex px-1 justify-center items-center gap-2.5 text-xs font-medium leading-normal text-neutral-500 group-focus-within:text-twitter-blue">
+                    Website
+                </legend>
+                <input type="text" placeholder="Website" class="w-full bg-transparent text-neutral-50 text-15 font-normal leading-normal placeholder:text-neutral-500 placeholder:text-15 focus:outline-none"/>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>

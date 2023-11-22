@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../dist/output.css" rel="stylesheet" />
+    <title>100x</title>
+</head>
+<body class="bg-neutral-1000 font-inter flex-shrink-0">
+    <section class="bg-neutral-1000 font-inter flex flex-col px-[15px] pb-5 items-start gap-3 flex-shrink-0 rounded-2xl">
+        <section class="flex py-3 items-center gap-5 self-stretch">
+            <a href="./create-account-step-3.html">
+                <img src="../../public/images/cancel.svg"/>
+            </a>
+            <p class="text-neutral-50 text-15 font-bold leading-normal">
+                Step 4 of 4
+            </p>
+        </section>
+
+        <section class="flex flex-col items-start gap-10 self-stretch">
+            <div class="flex flex-col items-start self-stretch gap-2">
+                <p class="text-neutral-50 text-2xl  font-bold leading-normal">You'll need a password</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal">Make sure it's 8 characters or more</p>
+            </div>
+
+            <div class="flex flex-col items-end gap-3 self-stretch">
+                <fieldset class="group flex py-4 px-3 justify-between items-center gap-2.5 self-stretch rounded border border-solid border-neutral-500 focus-within:border-twitter-blue">   
+                    <legend class="bg-neutral-1000 flex px-1 justify-center items-center gap-2.5 text-xs font-medium leading-normal text-neutral-500 group-focus-within:text-twitter-blue">
+                        Password
+                    </legend>
+                    <input type="text" placeholder="Password" class="w-full bg-transparent  text-neutral-50 text-xl font-normal leading-normal placeholder:text-neutral-500 placeholder:text-xl focus:outline-none"/>
+                    <img src="../../public/images/eye-open.svg" class=""/>
+                </fieldset>
+            </div>
+        </section>
+        <a href="../home-feed/index.html">
+            <button class="bg-neutral-50 flex w-442 py-3 px-6 justify-center items-center self-stretch gap-2.5 rounded-border-65 shadow-signup-box-shadow backdrop-blur-23 absolute bottom-5 right-[15px] left-[15px] hover:bg-neutral-200">
+                <p class="text-neutral-1000 text-center text-base font-bold leading-normal">Next</p>
+            </button>
+        </a>
+    </section>
+</body>
+</html>
